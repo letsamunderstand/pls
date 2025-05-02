@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sam Won't Get It</title>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Rubik', sans-serif;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem;
+    }
+
+    h1 {
+      font-size: 3rem;
+      text-align: center;
+      color: #ff5e62;
+      margin-bottom: 0.5rem;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      color: #ffc371;
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      max-width: 1200px;
+      width: 100%;
+      padding: 1rem;
+    }
+
+    .gallery img {
+      width: 100%;
+      border-radius: 15px;
+      border: 4px solid #fff;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    .gallery img:hover {
+      transform: scale(1.06);
+      box-shadow: 0 10px 25px rgba(255, 255, 255, 0.3);
+    }
+
+    .progress-container {
+      margin-top: 3rem;
+      width: 80%;
+      max-width: 600px;
+    }
+
+    .progress-label {
+      margin-bottom: 0.5rem;
+      font-size: 1.3rem;
+      text-align: center;
+    }
+
+    .progress-bar {
+      width: 100%;
+      background: #333;
+      border-radius: 20px;
+      overflow: hidden;
+    }
+
+    .progress {
+      height: 24px;
+      background-color: #ff5e62;
+      width: 0%;
+      text-align: center;
+      line-height: 24px;
+      color: white;
+    }
+
+    .footer {
+      margin-top: 4rem;
+      font-size: 0.9rem;
+      color: #aaa;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to the Hall of Confusion</h1>
+  <h2>The Official Sam Won't Get It Archive 🤷‍♂️</h2>
+
+  <div class="gallery">
+    <img src="ss1.png" alt="Sam won't get it 1">
+    <img src="ss2.png" alt="Sam won't get it 2">
+    <img src="ss3.png" alt="Sam won't get it 3">
+    <img src="ss4.png" alt="Sam won't get it 4">
+    <img src="ss5.png" alt="Sam won't get it 5">
+    <img src="ss6.png" alt="Sam won't get it 6">
+    <img src="ss7.png" alt="Sam won't get it 7">
+    <img src="ss8.png" alt="Sam won't get it 8">
+    <img src="ss9.png" alt="Sam won't get it 9">
+    <img src="ss10.png" alt="Sam won't get it 10">
+    <img src="ss11.png" alt="Sam won't get it 11">
+  </div>
+
+  <div class="progress-container">
+    <div class="progress-label">Sam's Understanding of My Hero Academia</div>
+    <div class="progress-bar">
+      <div class="progress">0%</div>
+    </div>
+  </div>
+
+  <div class="footer">
+    © 2025 - Sam Still Doesn't Get It | But He's Got a Website Now
+  </div>
+</body>
+</html>
