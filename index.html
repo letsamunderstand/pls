@@ -32,16 +32,17 @@
     }
 
     .gallery {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      display: flex;
+      flex-direction: column;
       gap: 1.5rem;
-      max-width: 1200px;
       width: 100%;
+      max-width: 800px;
       padding: 1rem;
     }
 
     .gallery img {
       width: 100%;
+      height: auto;
       border-radius: 15px;
       border: 4px solid #fff;
       transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -49,7 +50,7 @@
     }
 
     .gallery img:hover {
-      transform: scale(1.06);
+      transform: scale(1.02);
       box-shadow: 0 10px 25px rgba(255, 255, 255, 0.3);
     }
 
@@ -105,6 +106,10 @@
     <img src="ss9.png" alt="Sam won't get it 9">
     <img src="ss10.png" alt="Sam won't get it 10">
     <img src="ss11.png" alt="Sam won't get it 11">
+    <img src="ss12.png" alt="Sam won't get it 12">
+    <img src="ss13.png" alt="Sam won't get it 13">
+    <img src="ss14.png" alt="Sam won't get it 14">
+    <img src="ss15.png" alt="Sam won't get it 15">
   </div>
 
   <div class="progress-container">
